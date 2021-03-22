@@ -1,0 +1,6 @@
+framework module Pods_buildthebay {
+  umbrella header "Pods-buildthebay-umbrella.h"
+
+  export *
+  module * { export * }
+}

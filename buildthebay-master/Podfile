@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'buildthebay' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for buildthebay
+    pod 'Firebase'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Core'
+	pod 'Firebase/Storage'
+	pod 'Firebase/Database'
+	pod 'GoogleSignIn'
+    pod 'SDWebImage'
+    pod 'SwiftyJSON'
+    pod 'Eureka'
+    pod 'ImageRow'
+    pod 'lottie-ios'
+end
